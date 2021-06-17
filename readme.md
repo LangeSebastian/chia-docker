@@ -1,4 +1,4 @@
-# Official Chia Docker Container
+# Mirror with build hook of the official Chia Docker Container
 
 ## Basic Startup
 ```
