@@ -1,7 +1,5 @@
 
-
-
-name: Build Latest Release
+name: Test Docker build for chia
 
 on:
   push:
@@ -13,7 +11,7 @@ concurrency:
   group: "latest"
 
 jobs:
-  docker_build_and_publish_github:
+  0:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
